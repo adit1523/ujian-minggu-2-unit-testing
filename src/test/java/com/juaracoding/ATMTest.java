@@ -35,7 +35,7 @@ public class ATMTest {
     }
     @Test(expectedExceptions = IllegalArgumentException.class)
     public void testTarikUangNegatif(){
-        atm.setorUang(-1000);
+        atm.tarikUang(-1000);
 
     }
 }
